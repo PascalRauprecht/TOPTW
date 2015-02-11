@@ -1,17 +1,16 @@
-//
-//  main.cpp
-//  TOPTW
-//
-//  Created by Pascal Rauprecht on 11.02.15.
-//  Copyright (c) 2015 Pascal Rauprecht. All rights reserved.
-//
-
-
-//Test
+#include <boost/lambda/lambda.hpp>
 #include <iostream>
+#include <iterator>
+#include <algorithm>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    typedef std::istream_iterator<int> in;
+    
+    std::cout << "Type in any number: ";
+    
+    std::for_each(
+                  in(std::cin), in(), std::cout
+                  << (boost::lambda::_1 * 10)
+                  << "\nType in another number: " );
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5013B8611A8BFE5600185E31 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013B8601A8BFE5600185E31 /* boost.framework */; };
 		501F55441A8BFBCF0049A3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F55431A8BFBCF0049A3AE /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5013B8601A8BFE5600185E31 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../../../../../../../BoostXCode/osx/framework/boost.framework; sourceTree = "<group>"; };
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5013B8611A8BFE5600185E31 /* boost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		501F55371A8BFBCF0049A3AE = {
 			isa = PBXGroup;
 			children = (
+				5013B8601A8BFE5600185E31 /* boost.framework */,
 				501F55421A8BFBCF0049A3AE /* TOPTW */,
 				501F55411A8BFBCF0049A3AE /* Products */,
 			);
@@ -202,6 +206,10 @@
 		501F55481A8BFBCF0049A3AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Pascal/BoostXCode/osx/framework,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -209,6 +217,10 @@
 		501F55491A8BFBCF0049A3AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Pascal/BoostXCode/osx/framework,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -232,6 +244,7 @@
 				501F55491A8BFBCF0049A3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
