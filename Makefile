@@ -37,7 +37,7 @@ CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CCLNFLAGS = -L$(CPLEXLIBDIR) -lilocplex -lcplex -L$(CONCERTLIBDIR) -lconcert -lm -lpthread 
 
 # for the boost library
-BOOSTDIR = /home/vschmid/boost_1_47_0
+BOOSTDIR = /usr/include/boost
 
 all:
 	make all_cpp
@@ -62,7 +62,7 @@ CPP_EX = TOPTWSTDP
 all_cpp: $(CPP_EX)
 
 execute_cpp: $(CPP_EX)
-	TOPTWSTDP
+	TOPTW
 
 SRCFILES = TOPTWSTDP.cpp \
 data.cpp \
@@ -73,9 +73,7 @@ mip.cpp
 OBJFILES = $(SRCFILES:%.cpp=%.o)
 
 $(CPP_EX):  $(OBJFILES)
-	$(CCC) $(CCFLAGS) $(OBJFILES)  -o $(CPP_EX) $(CCLNFLAGS) 
-	
-#$(BOOSTLIB)
+	$(CCC) $(CCFLAGS) $(OBJFILES)  -o $(CPP_EX) $(CCLNFLAGS) $(BOOSTLIB)
 
 %.o:%.cpp
 	$(CCC) -c $(CCFLAGS) $< -o $(<:%.cpp=%.o)

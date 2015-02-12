@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5008AE3D1A8C3C6500A7B2C2 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5008AE3C1A8C3C6400A7B2C2 /* Makefile */; };
 		5013B8611A8BFE5600185E31 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013B8601A8BFE5600185E31 /* boost.framework */; };
 		501F55441A8BFBCF0049A3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F55431A8BFBCF0049A3AE /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -27,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5008AE3C1A8C3C6400A7B2C2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		5008AE3E1A8C3C6B00A7B2C2 /* runMT */ = {isa = PBXFileReference; lastKnownFileType = text; path = runMT; sourceTree = "<group>"; };
+		5008AE3F1A8C3DB600A7B2C2 /* submit_TOPTW.pbs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = submit_TOPTW.pbs; sourceTree = "<group>"; };
 		5013B8601A8BFE5600185E31 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../../../../../../../BoostXCode/osx/framework/boost.framework; sourceTree = "<group>"; };
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -52,6 +52,7 @@
 				501F55411A8BFBCF0049A3AE /* Products */,
 				5008AE3C1A8C3C6400A7B2C2 /* Makefile */,
 				5008AE3E1A8C3C6B00A7B2C2 /* runMT */,
+				5008AE3F1A8C3DB600A7B2C2 /* submit_TOPTW.pbs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +128,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5008AE3D1A8C3C6500A7B2C2 /* Makefile in Sources */,
 				501F55441A8BFBCF0049A3AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

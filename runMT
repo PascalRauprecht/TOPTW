@@ -1,1 +1,1 @@
-cd MS_14/Program; make; qsub submit_TOPTWSTDP.pbs 
+cd MT_15/Program; make; qsub submit_TOPTWSTDP.pbs
