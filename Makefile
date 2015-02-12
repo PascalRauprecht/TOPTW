@@ -37,7 +37,7 @@ CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CCLNFLAGS = -L$(CPLEXLIBDIR) -lilocplex -lcplex -L$(CONCERTLIBDIR) -lconcert -lm -lpthread 
 
 # for the boost library
-# BOOSTDIR = /home/vschmid/boost_1_47_0
+BOOSTDIR = /home/vschmid/boost_1_47_0
 
 all:
 	make all_cpp
