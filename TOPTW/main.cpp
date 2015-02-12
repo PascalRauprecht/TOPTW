@@ -9,3 +9,5 @@ int main()
     std::for_each(v.begin(), v.end(),
                   std::cout << boost::lambda::_1 << "\n");
 }
+
+//test
