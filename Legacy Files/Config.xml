@@ -1,0 +1,23 @@
+<config>
+	<instances>
+		<instance>Vansteenwegen2009\r101.txt</instance>
+		<instance>Vansteenwegen2009\r102.txt</instance>
+	</instances>
+	<instanceParameters>
+		<instanceSize>0</instanceSize>
+		<problemType>TOPTW</problemType>
+		<decimalPlaces>1</decimalPlaces>
+		<vehicles>1</vehicles>
+		<minServiceTime>0</minServiceTime>
+		<maxServiceTime>0</maxServiceTime>
+	</instanceParameters>
+	
+	<appParameters>
+		<program>1</program>
+	</appParameters>
+	
+    <saParameters>
+        <selIter>20</selIter>
+        <iIterB>100</iIterB>
+    </saParameters>
+</config>

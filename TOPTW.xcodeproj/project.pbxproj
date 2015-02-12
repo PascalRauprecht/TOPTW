@@ -27,6 +27,18 @@
 		5008AE3C1A8C3C6400A7B2C2 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		5008AE3E1A8C3C6B00A7B2C2 /* runMT */ = {isa = PBXFileReference; lastKnownFileType = text; path = runMT; sourceTree = "<group>"; };
 		5008AE3F1A8C3DB600A7B2C2 /* submit_TOPTW.pbs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = submit_TOPTW.pbs; sourceTree = "<group>"; };
+		5008AE401A8C3F7900A7B2C2 /* benchrun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = benchrun.cpp; path = "Legacy Files/benchrun.cpp"; sourceTree = "<group>"; };
+		5008AE411A8C3F7A00A7B2C2 /* benchrun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = benchrun.h; path = "Legacy Files/benchrun.h"; sourceTree = "<group>"; };
+		5008AE421A8C3F7A00A7B2C2 /* Config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Config.xml; path = "Legacy Files/Config.xml"; sourceTree = "<group>"; };
+		5008AE431A8C3F7A00A7B2C2 /* data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = data.cpp; path = "Legacy Files/data.cpp"; sourceTree = "<group>"; };
+		5008AE441A8C3F7B00A7B2C2 /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = data.h; path = "Legacy Files/data.h"; sourceTree = "<group>"; };
+		5008AE451A8C3F7B00A7B2C2 /* dynpro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dynpro.cpp; path = "Legacy Files/dynpro.cpp"; sourceTree = "<group>"; };
+		5008AE461A8C3F7B00A7B2C2 /* dynpro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dynpro.h; path = "Legacy Files/dynpro.h"; sourceTree = "<group>"; };
+		5008AE471A8C3F7B00A7B2C2 /* hssa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = hssa.cpp; path = "Legacy Files/hssa.cpp"; sourceTree = "<group>"; };
+		5008AE481A8C3F7C00A7B2C2 /* hssa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hssa.h; path = "Legacy Files/hssa.h"; sourceTree = "<group>"; };
+		5008AE491A8C3F7C00A7B2C2 /* mip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mip.cpp; path = "Legacy Files/mip.cpp"; sourceTree = "<group>"; };
+		5008AE4A1A8C3F7C00A7B2C2 /* mip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mip.h; path = "Legacy Files/mip.h"; sourceTree = "<group>"; };
+		5008AE4B1A8C3F7D00A7B2C2 /* TOPTWSTDP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TOPTWSTDP.cpp; path = "Legacy Files/TOPTWSTDP.cpp"; sourceTree = "<group>"; };
 		5013B8601A8BFE5600185E31 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../../../../../../../BoostXCode/osx/framework/boost.framework; sourceTree = "<group>"; };
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -44,6 +56,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5008AE4C1A8C3F8400A7B2C2 /* Legacy Files */ = {
+			isa = PBXGroup;
+			children = (
+				5008AE401A8C3F7900A7B2C2 /* benchrun.cpp */,
+				5008AE411A8C3F7A00A7B2C2 /* benchrun.h */,
+				5008AE421A8C3F7A00A7B2C2 /* Config.xml */,
+				5008AE431A8C3F7A00A7B2C2 /* data.cpp */,
+				5008AE441A8C3F7B00A7B2C2 /* data.h */,
+				5008AE451A8C3F7B00A7B2C2 /* dynpro.cpp */,
+				5008AE461A8C3F7B00A7B2C2 /* dynpro.h */,
+				5008AE471A8C3F7B00A7B2C2 /* hssa.cpp */,
+				5008AE481A8C3F7C00A7B2C2 /* hssa.h */,
+				5008AE491A8C3F7C00A7B2C2 /* mip.cpp */,
+				5008AE4A1A8C3F7C00A7B2C2 /* mip.h */,
+				5008AE4B1A8C3F7D00A7B2C2 /* TOPTWSTDP.cpp */,
+			);
+			name = "Legacy Files";
+			sourceTree = "<group>";
+		};
 		501F55371A8BFBCF0049A3AE = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +84,7 @@
 				5008AE3C1A8C3C6400A7B2C2 /* Makefile */,
 				5008AE3E1A8C3C6B00A7B2C2 /* runMT */,
 				5008AE3F1A8C3DB600A7B2C2 /* submit_TOPTW.pbs */,
+				5008AE4C1A8C3F8400A7B2C2 /* Legacy Files */,
 			);
 			sourceTree = "<group>";
 		};
