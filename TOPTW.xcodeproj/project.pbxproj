@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5008AE4F1A8C3FF500A7B2C2 /* instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5008AE4D1A8C3FF500A7B2C2 /* instance.cpp */; };
 		5013B8611A8BFE5600185E31 /* boost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5013B8601A8BFE5600185E31 /* boost.framework */; };
 		501F55441A8BFBCF0049A3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 501F55431A8BFBCF0049A3AE /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		5008AE491A8C3F7C00A7B2C2 /* mip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mip.cpp; path = "Legacy Files/mip.cpp"; sourceTree = "<group>"; };
 		5008AE4A1A8C3F7C00A7B2C2 /* mip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mip.h; path = "Legacy Files/mip.h"; sourceTree = "<group>"; };
 		5008AE4B1A8C3F7D00A7B2C2 /* TOPTWSTDP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TOPTWSTDP.cpp; path = "Legacy Files/TOPTWSTDP.cpp"; sourceTree = "<group>"; };
+		5008AE4D1A8C3FF500A7B2C2 /* instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = instance.cpp; path = "../../../../../../Viadrina Master/Master Thesis/Program/TOPTW/TOPTW/TOPTW/instance.cpp"; sourceTree = "<group>"; };
+		5008AE4E1A8C3FF500A7B2C2 /* instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = instance.h; path = "../../../../../../Viadrina Master/Master Thesis/Program/TOPTW/TOPTW/TOPTW/instance.h"; sourceTree = "<group>"; };
 		5013B8601A8BFE5600185E31 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../../../../../../../BoostXCode/osx/framework/boost.framework; sourceTree = "<group>"; };
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				501F55431A8BFBCF0049A3AE /* main.cpp */,
+				5008AE4D1A8C3FF500A7B2C2 /* instance.cpp */,
+				5008AE4E1A8C3FF500A7B2C2 /* instance.h */,
 			);
 			path = TOPTW;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5008AE4F1A8C3FF500A7B2C2 /* instance.cpp in Sources */,
 				501F55441A8BFBCF0049A3AE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

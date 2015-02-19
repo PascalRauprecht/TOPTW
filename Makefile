@@ -64,11 +64,8 @@ all_cpp: $(CPP_EX)
 execute_cpp: $(CPP_EX)
 	TOPTW
 
-SRCFILES = TOPTWSTDP.cpp \
-data.cpp \
-dynpro.cpp \
-hssa.cpp \
-mip.cpp 
+SRCFILES = main.cpp \
+instance.cpp
 
 OBJFILES = $(SRCFILES:%.cpp=%.o)
 

@@ -4,4 +4,4 @@
 #PBS -N MT_Rauprecht
 #PBS -q batch
 #PBS -V
-/home/prauprecht/MT_15/Program/TOPTW "/home/prauprecht/MT_15/Program" "/home/prauprecht/MT_15/Instances"
+/home/prauprecht/MT_15/Program/TOPTW
