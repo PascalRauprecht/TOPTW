@@ -45,6 +45,8 @@
 		5013B8601A8BFE5600185E31 /* boost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = boost.framework; path = ../../../../../../../BoostXCode/osx/framework/boost.framework; sourceTree = "<group>"; };
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		509799411A95670600F9A2A0 /* literature.bib */ = {isa = PBXFileReference; lastKnownFileType = text; name = literature.bib; path = MT/literature.bib; sourceTree = "<group>"; };
+		509799421A95670600F9A2A0 /* TOPTWSTDP.tex */ = {isa = PBXFileReference; lastKnownFileType = text; name = TOPTWSTDP.tex; path = MT/TOPTWSTDP.tex; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				5008AE3C1A8C3C6400A7B2C2 /* Makefile */,
 				5008AE3E1A8C3C6B00A7B2C2 /* runMT */,
 				5008AE3F1A8C3DB600A7B2C2 /* submit_TOPTW.pbs */,
+				509799401A9566EC00F9A2A0 /* MT */,
 				5008AE4C1A8C3F8400A7B2C2 /* Legacy Files */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +110,15 @@
 				5008AE4E1A8C3FF500A7B2C2 /* instance.h */,
 			);
 			path = TOPTW;
+			sourceTree = "<group>";
+		};
+		509799401A9566EC00F9A2A0 /* MT */ = {
+			isa = PBXGroup;
+			children = (
+				509799411A95670600F9A2A0 /* literature.bib */,
+				509799421A95670600F9A2A0 /* TOPTWSTDP.tex */,
+			);
+			name = MT;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
