@@ -46,7 +46,7 @@
 		501F55401A8BFBCF0049A3AE /* TOPTW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TOPTW; sourceTree = BUILT_PRODUCTS_DIR; };
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		509799411A95670600F9A2A0 /* literature.bib */ = {isa = PBXFileReference; lastKnownFileType = text; name = literature.bib; path = MT/literature.bib; sourceTree = "<group>"; };
-		509799421A95670600F9A2A0 /* TOPTWSTDP.tex */ = {isa = PBXFileReference; lastKnownFileType = text; name = TOPTWSTDP.tex; path = MT/TOPTWSTDP.tex; sourceTree = "<group>"; };
+		509799431A95674500F9A2A0 /* TOPTW.tex */ = {isa = PBXFileReference; lastKnownFileType = text; name = TOPTW.tex; path = MT/TOPTW.tex; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 		509799401A9566EC00F9A2A0 /* MT */ = {
 			isa = PBXGroup;
 			children = (
+				509799431A95674500F9A2A0 /* TOPTW.tex */,
 				509799411A95670600F9A2A0 /* literature.bib */,
-				509799421A95670600F9A2A0 /* TOPTWSTDP.tex */,
 			);
 			name = MT;
 			sourceTree = "<group>";
