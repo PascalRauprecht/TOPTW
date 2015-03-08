@@ -47,6 +47,7 @@
 		501F55431A8BFBCF0049A3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		509799411A95670600F9A2A0 /* literature.bib */ = {isa = PBXFileReference; lastKnownFileType = text; name = literature.bib; path = MT/literature.bib; sourceTree = "<group>"; };
 		509799431A95674500F9A2A0 /* TOPTW.tex */ = {isa = PBXFileReference; lastKnownFileType = text; name = TOPTW.tex; path = MT/TOPTW.tex; sourceTree = "<group>"; };
+		50A899681AAC07E1009D4AC3 /* batch.bat */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = batch.bat; path = "../../../../../viadrina master/Master Thesis/Program/TOPTW/TOPTW/MT/batch.bat"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 			children = (
 				509799431A95674500F9A2A0 /* TOPTW.tex */,
 				509799411A95670600F9A2A0 /* literature.bib */,
+				50A899681AAC07E1009D4AC3 /* batch.bat */,
 			);
 			name = MT;
 			sourceTree = "<group>";
